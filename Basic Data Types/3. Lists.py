@@ -1,6 +1,6 @@
 N = int(input())
 my_list = []
-for i in range(0, N):
+for i in range(N):
 	result = input().split()
   	if result[0] == 'insert':
     		my_list.insert(int(result[1]), int(result[2]))
